@@ -1,0 +1,168 @@
+/* Add a black background color to the top navigation */
+
+* {
+    font-family: 'catamaran' serif;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(247, 247, 247, .9);
+    z-index: 1;
+}
+
+.topnav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgba(247, 247, 247, .8);
+    width: 100%;
+    overflow: hidden;
+}
+
+header>img {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 5px;
+    left: 20px;
+}
+
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+    float: left;
+    display: block;
+    color: rgba(112, 112, 112, 1);
+    text-align: center;
+    margin: 10px;
+    padding: 20px 26px;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+
+/* Change the color of links on hover */
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+/* Add an active class to highlight the current page */
+
+
+/* Hide the link that should open and close the topnav on small screens */
+
+.topnav .icon {
+    display: none;
+}
+
+#section_main {
+    background-image: url('../Images/section_mainbk.jpg');
+    background-repeat: no-repeat;
+    background-attachment: cover;
+    background-size: 100% 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+#section_main>div:last-child {
+    color: white;
+}
+
+#section_main2>h1 {
+    position: absolute;
+    top: 20%;
+    font-size: 130px;
+    padding: 0 90px 0 50px;
+}
+
+#section_main2>h3 {
+    position: absolute;
+    top: 45%;
+    padding: 30px 90px 30px 0;
+    font-size: 30px;
+    text-align: center;
+}
+
+#section_us {
+    width: 100%;
+    height: 110vh;
+}
+
+#section_us1 {
+    background-image: url('../Images/sectionus.jpg');
+    background-repeat: no-repeat;
+    background-attachment: cover;
+    background-size: 100% 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#section_us2>h1 {
+    padding: 40px 40px 10px 40px;
+    font-size: 50px;
+}
+
+#section_us2>img {
+    margin: 0px 0px 0px 40%;
+}
+
+#section_us2>p {
+    text-align: justify;
+    padding: 20px 40px 20px 40px;
+    font-size: 28px;
+}
+
+#section_services {
+    width: 100%;
+    height: 150vh;
+}
+
+#section_services>div:first-child>h1 {
+    padding: 50px 10px 40px 80px;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.section_services_one:first-child {
+    padding: 10px 30px 40px 10px !important;
+}
+
+.section_services_one {
+    padding: 40px 30px 40px 30px;
+}
+
+.section_services_op {
+    margin: 20px 0 20px 0;
+    height: 230px;
+    border: 1px solid gray;
+    border-radius: 30px;
+}
+
+.section_services_op:hover {
+    background-color: rgba(50, 200, 255, 1);
+}
+
+.section_services_op>img {
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+.section_services_op>h3 {
+    padding-top: 10px !important;
+    padding-left: 220px !important;
+}
+
+.section_services_op>p {
+    font-size: 12px;
+    text-align: justify;
+    padding-top: 10px !important;
+    padding-left: 220px !important;
+    padding-right: 20px !important;
+}
