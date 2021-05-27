@@ -34,3 +34,109 @@
         text-align: left;
     }
 }
+
+@media screen and (max-width:380px) {
+    #section_main2 {
+        height: 600px !important;
+    }
+    #section_main2>h1 {
+        padding: 0 60px 0 60px;
+        left: 0;
+        font-size: 80px !important;
+    }
+    #section_main2>h3 {
+        left: 0;
+        padding: 30px 40px 30px 30px;
+        font-size: 22px !important;
+    }
+    #section_us {
+        height: 600px !important;
+    }
+    #section_us1 {
+        display: none;
+    }
+    #section_us2>h1 {
+        font-size: 40px;
+    }
+    #section_us2>h1>img {
+        width: 40px;
+        height: 40px;
+    }
+    #section_us2>p {
+        font-size: 14px;
+    }
+    #section_services {
+        height: 1800px;
+    }
+    #section_services_title>h1 {
+        margin: 0 !important;
+        padding: 20px !important;
+    }
+    .section_services_one {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .section_services_op {
+        width: 100%;
+        margin: 10px 0 10px 0;
+        height: 230px;
+        border: 1px solid gray;
+        border-radius: 30px;
+    }
+    .section_services_op:hover {
+        background-color: rgba(50, 200, 255, 1);
+    }
+    .section_services_op>img {
+        width: 30%;
+        height: 100%;
+        float: left;
+    }
+    .section_services_op>h3 {
+        padding-top: 10px !important;
+        padding-left: 85px !important;
+    }
+    .section_services_op>p {
+        font-size: 12px;
+        text-align: justify;
+        padding-top: 10px !important;
+        padding-left: 105px !important;
+        padding-right: 20px !important;
+    }
+    .reconocimientos {
+        height: 1500px;
+        padding: 25px;
+    }
+    .imagen1 {
+        padding-top: 10px !important;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    .business {
+        height: 150px;
+    }
+    .contacto {
+        padding: 25px;
+        height: 1000px;
+    }
+    .mapa {
+        width: 100% !important;
+    }
+    form input {
+        width: 100%;
+    }
+    form img {
+        width: 20%;
+        padding: 0px 0px 0px 0px;
+    }
+    form button {
+        background-color: green;
+        color: white;
+        padding: 0px 0px 0px 0px;
+        width: 50%;
+    }
+    footer {
+        position: relative;
+        bottom: 0;
+    }
+}
